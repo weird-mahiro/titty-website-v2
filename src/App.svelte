@@ -8,19 +8,27 @@
   import Banner2 from "./components/Banner2.svelte";
   import InformationTemplate from "./components/InformationTemplate.svelte";
   import Gallery from "./components/Gallery.svelte";
+  import Footer from "./components/Footer.svelte";
+  import Menu from "./components/Menu.svelte";
+  import { isMenuOpen } from "./shared.svelte";
 </script>
 
 <NavBar />
 
-<Banner1 />
-<Buy />
-<Banner2 />
-<InformationTemplate
-  title={config.section[0].title}
-  details={config.section[0].details}
-/>
-<Gallery />
-<InformationTemplate
-  title={config.section[1].title}
-  details={config.section[1].details}
-/>
+{#if isMenuOpen.menu == true}
+  <Menu />
+{:else}
+  <Banner1 />
+  <Buy />
+  <Banner2 />
+  <InformationTemplate
+    title={config.section[0].title}
+    details={config.section[0].details}
+  />
+  <Gallery />
+  <InformationTemplate
+    title={config.section[1].title}
+    details={config.section[1].details}
+  />
+  <Footer />
+{/if}

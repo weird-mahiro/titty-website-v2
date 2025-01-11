@@ -2,16 +2,20 @@ const config = {
   logo: "/logo.svg",
   socials: [
     {
-      type: "Twitter",
-      url: "https://x.com/tittycoinsol",
+      type: "Dexscreener",
+      url: "https://dexscreener.com/solana/9xzeWnrFyYhuK6tW5zBGh3jUqiDgHFuPezQYzkpyMgYh",
     },
     {
       type: "Telegram",
       url: "https://t.me/tittyctosol",
     },
     {
-      type: "Dexscreener",
-      url: "https://dexscreener.com/solana/9xzeWnrFyYhuK6tW5zBGh3jUqiDgHFuPezQYzkpyMgYh",
+      type: "Twitter",
+      url: "https://x.com/tittycoinsol",
+    },
+    {
+      type: "Reddit",
+      url: "https://www.reddit.com/r/TITTYONSOL",
     },
   ],
   ca: "45C1NSdYrbkT1etufJGLB7rEYsj2JbfFTswreDRNbjxx",
@@ -50,6 +54,10 @@ const config = {
     "/images/poster-7.jpg",
     "/images/poster-8.jpg",
   ],
+  footer: {
+    story:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
 };
 
 export { config };
