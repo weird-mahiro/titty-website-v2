@@ -1,5 +1,6 @@
 <script lang="ts">
   // Using on click to change between copy and tick adding later
+  // Need to add footer
   import { config } from "../config";
   import NavBar from "./components/NavBar.svelte";
   import Banner1 from "./components/Banner1.svelte";
