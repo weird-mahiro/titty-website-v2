@@ -8,7 +8,7 @@
   </div>
   <div class="mx-auto max-w-[1000px] space-y-4 md:space-y-6">
     {#each details as detail}
-      <p class="text-lg md:text-2xl">{detail}</p>
+      <p class="text-base md:text-2xl">{detail}</p>
     {/each}
   </div>
 </div>
