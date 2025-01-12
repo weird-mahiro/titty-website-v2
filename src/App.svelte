@@ -18,22 +18,20 @@
 
 <NavBar />
 
-{#if isMenuOpen.menu == true}
-  <Menu />
-{:else}
-  <div class="pt-48 md:pt-56">
-    <Banner1 />
-    <Buy />
-    <Banner2 />
-    <InformationTemplate
-      title={config.section[0].title}
-      details={config.section[0].details}
-    />
-    <Gallery />
-    <InformationTemplate
-      title={config.section[1].title}
-      details={config.section[1].details}
-    />
-    <Footer />
-  </div>
-{/if}
+<Menu />
+
+<div class="pt-48 md:pt-56">
+  <Banner1 />
+  <Buy />
+  <Banner2 />
+  <InformationTemplate
+    title={config.section[0].title}
+    details={config.section[0].details}
+  />
+  <Gallery />
+  <InformationTemplate
+    title={config.section[1].title}
+    details={config.section[1].details}
+  />
+  <Footer />
+</div>
