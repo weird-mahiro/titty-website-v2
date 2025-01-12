@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { Copy } from "lucide-svelte";
   import { config } from "../../config";
   import CopyButton from "./button/CopyButton.svelte";
   import DisableInput from "./input/DisableInput.svelte";
@@ -13,7 +12,7 @@
   </div>
   <div class="mx-auto mb-8 flex max-w-[1000px] gap-2 md:mb-12">
     <DisableInput ca={config.ca} />
-    <CopyButton info={config.ca}><Copy /></CopyButton>
+    <CopyButton info={config.ca} />
   </div>
   <div class="mb-8 flex justify-center md:mb-12">
     <h2 class="text-2xl md:text-3xl">Or</h2>

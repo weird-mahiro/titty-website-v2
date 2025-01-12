@@ -1,5 +1,4 @@
 <script lang="ts">
-  // Using "#_" for no action href
   let { url, children }: { url: string; children: any } = $props();
 </script>
 

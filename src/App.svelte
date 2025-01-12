@@ -11,24 +11,29 @@
   import Footer from "./components/Footer.svelte";
   import Menu from "./components/Menu.svelte";
   import { isMenuOpen } from "./shared.svelte";
+  import { Toaster } from "svelte-sonner";
 </script>
+
+<Toaster position="bottom-center" />
 
 <NavBar />
 
 {#if isMenuOpen.menu == true}
   <Menu />
 {:else}
-  <Banner1 />
-  <Buy />
-  <Banner2 />
-  <InformationTemplate
-    title={config.section[0].title}
-    details={config.section[0].details}
-  />
-  <Gallery />
-  <InformationTemplate
-    title={config.section[1].title}
-    details={config.section[1].details}
-  />
-  <Footer />
+  <div class="pt-48 md:pt-56">
+    <Banner1 />
+    <Buy />
+    <Banner2 />
+    <InformationTemplate
+      title={config.section[0].title}
+      details={config.section[0].details}
+    />
+    <Gallery />
+    <InformationTemplate
+      title={config.section[1].title}
+      details={config.section[1].details}
+    />
+    <Footer />
+  </div>
 {/if}

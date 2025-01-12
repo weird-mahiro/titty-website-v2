@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { Menu } from "lucide-svelte";
   import MenuButton from "./button/MenuButton.svelte";
 </script>
 
