@@ -17,6 +17,10 @@ const config = {
       type: "Reddit",
       url: "https://www.reddit.com/r/TITTYONSOL",
     },
+    {
+      type: "Tiktok",
+      url: "https://www.tiktok.com/@titty.coin",
+    },
   ],
   ca: "45C1NSdYrbkT1etufJGLB7rEYsj2JbfFTswreDRNbjxx",
   jup: "https://jup.ag/swap/SOL-45C1NSdYrbkT1etufJGLB7rEYsj2JbfFTswreDRNbjxx",
